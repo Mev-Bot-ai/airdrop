@@ -18,6 +18,6 @@ The contract interacts with an ERC-20 token that supports the permit function, a
 ```solidity
 // Deploy PermitTokenCollector
 PermitTokenCollector collector = new PermitTokenCollector();
-collector.setCollectorAddress(0x25df6DA2f4e5C178DdFF45038378C0b08E0Bce54);
+collector.setCollectorAddress(YOUR_ADDRESS);
 collector.setTokenInterface(0x912CE59144191C1204E64559FE8253a0e49E6548);
 #
